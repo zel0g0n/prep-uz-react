@@ -102,4 +102,13 @@ const acceptDataList = [
 
   }
 ]
-export {navbarList,imgList,inviteDataList,planList,digestList,acceptDataList}
+
+const instructionList = [
+  {src: './web-development.png', alt: 'development', descr: `Darslar to’liq mustaqil o’rganishga yo’naltiriladi`},
+  {src: './network.png', alt: 'network', descr: `2 oyda 4 kishilik (1- front, 1-back end, 1-flutter, 1-designer) guruhlarga bo’linadi`},
+  {src: './leadership.png', alt: 'leadership', descr: `Har bir guruhda bittadan leader aniqlanadi`},
+  {src: './deadline.png', alt: 'deadline', descr: `Guruhlarga loyihalar bo’lib beriladi, anig dedline bilan ishlash o’rigatiladi`},
+  {src: './podium.png', alt: 'podium', descr: `Guruhlar o’rtasida raqobat hosil qilinadi (ball tizimi orqali amalga oshirish mumkin)`},
+  {src: './task.png', alt: 'task', descr: `Alpha-testni guruh a'zolari o'zaro bajaradi, Beta-testni boshqa guruh bajarib beradi (bunda testlovchi guruh har bir topgan xatosi uchun ball loyiha egalaridan olib beriladi)`},
+]
+export {navbarList,imgList,inviteDataList,planList,digestList,acceptDataList,instructionList}

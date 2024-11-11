@@ -1,0 +1,33 @@
+@import '../../constants/constants.scss';
+.instruction {
+  width: 750px;
+  margin: 100px auto;
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    &-item {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      justify-content: start;
+      & div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        height: 100px;
+        border-radius: 20px;
+        background-color: rgba(218, 220, 228, 1);
+      }
+      &--descr {
+        width: 612px;
+        color: $main-color;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 36px;
+      }
+    }
+  }
+
+}

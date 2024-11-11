@@ -4,6 +4,7 @@ import './app.scss'
 import Home from '../pages/home'
 import Plan from '../pages/plan'
 import Accept from '../pages/accept'
+import Instruction from '../pages/instruction'
 const App = () => {
   return (
     <BrowserRouter>
@@ -14,7 +15,7 @@ const App = () => {
           <Route path='/' element={<Home></Home>}/>
           <Route path='/plan' element={<Plan></Plan>} />
           <Route path='/accept' element={<Accept></Accept>} />
-          <Route path='/instruction' element={<></>} />
+          <Route path='/instruction' element={<Instruction></Instruction>} />
           <Route path='/choose' element={<></>} />
         </Routes>
       </div>
