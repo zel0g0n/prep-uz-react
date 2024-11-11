@@ -1,0 +1,44 @@
+@import '../../constants/constants.scss';
+.invite {
+  width: 1220px;
+  margin: 0 auto;
+  &__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 130px;
+    width: 100%;
+    &-item {
+      display: grid;
+      grid-template-columns: 45% 45%;
+      justify-content: space-between;
+      align-items: center;
+      width: 1105px;
+      &--descr {
+        .item__descr-descr--title {
+          font-size: 36px;
+          font-weight: 700;
+          line-height: 54px;
+          color: $main-color; 
+          margin-bottom: 40px;         
+        }
+        .item__descr-descr--info {
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 30px;
+          color: $grey-color;          
+        }
+
+      }
+      &--img {
+        width: 497px;
+        height: 503px;
+      }
+      &:nth-child(2) {
+        img {
+          grid-row: 1;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+@import '../../constants/constants.scss';
+.plan-container {
+  width: 100%;
+  background-color: rgba(248, 248, 248, 1);
+  .plansection {
+    width: 1220px;
+    margin: 0 auto;
+    padding: 100px 0;
+    background-color: transparent;
+    &__list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: start;
+      gap: 50px;
+      margin-top: 80px;
+  
+      &-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        width: 360px;
+        &--time {
+          width: 65px;
+          height: 65px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 18px;
+          background-color: $secondary-color;
+          & p {
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 20px;
+            color: #fff;
+            & span {
+              font-size: 16px;
+              font-weight: 500;
+              color: #fff;
+            }
+          }
+        }
+        &--info {
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 30px;
+          text-align: center;
+          color: $main-color;        
+        }
+  
+      }
+  
+    }
+  }
+}

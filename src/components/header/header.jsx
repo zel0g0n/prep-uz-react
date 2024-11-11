@@ -5,6 +5,7 @@ import './header.scss'
 
 const Header = () => {
   const [isUzb,setUzb] = useState(true)
+  
   const changeLanguage = () => {
     setUzb(!isUzb)
   }
@@ -13,7 +14,7 @@ const Header = () => {
     <>
     
       <div className='header'>
-        <Link to='/'>
+        <Link className='logo' to='/'>
           <img src="./prep-logo.png" alt="logo" />
         </Link>
         <nav>
@@ -27,6 +28,7 @@ const Header = () => {
               
             </ul>
         </nav>
+        <div className="bars-menu"><i className="fa-solid fa-bars"></i></div>
         <div className="header__btns">
           <div  className="language">
             <div onClick={changeLanguage} className={`language__item ${isUzb?'':'not-choosen'}`}>

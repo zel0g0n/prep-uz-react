@@ -1,0 +1,31 @@
+@import '../../constants/constants.scss';
+.digest {
+  width: 100%;
+  &section {
+    width: 1220px;
+    margin: 80px auto;
+    &__list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: start;
+      gap: 50px;
+      margin-top: 80px;
+      &-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        gap: 16px;
+        width: 264px;
+        &--info {
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 30px;
+          text-align: center;
+          color: $main-color; 
+        }
+      }
+    }
+  }
+}
