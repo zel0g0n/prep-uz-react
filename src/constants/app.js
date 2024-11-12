@@ -111,4 +111,11 @@ const instructionList = [
   {src: './podium.png', alt: 'podium', descr: `Guruhlar o’rtasida raqobat hosil qilinadi (ball tizimi orqali amalga oshirish mumkin)`},
   {src: './task.png', alt: 'task', descr: `Alpha-testni guruh a'zolari o'zaro bajaradi, Beta-testni boshqa guruh bajarib beradi (bunda testlovchi guruh har bir topgan xatosi uchun ball loyiha egalaridan olib beriladi)`},
 ]
-export {navbarList,imgList,inviteDataList,planList,digestList,acceptDataList,instructionList}
+
+const partnerslist = [
+  {src: '/go-pharm.svg', alt: 'go-farm'},
+  {src: '/prep-uz.svg', alt: 'prep-uz'},
+  {src: '/aav.svg', alt: 'aav'},
+  {src: '/oson-apteka.svg', alt: 'oson-apteka'},
+]
+export {navbarList,imgList,inviteDataList,planList,digestList,acceptDataList,instructionList,partnerslist}

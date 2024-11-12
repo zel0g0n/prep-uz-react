@@ -4,7 +4,7 @@ import './choose-details.scss'
 const ChooseDetails = () => {
   
   return (
-    <div className='choose'>
+    <div className='choose' id='choose'>
       <h4>Talim bosqichlari boyicha saralash</h4>
 
       <div className="choose__type">

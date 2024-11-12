@@ -1,11 +1,16 @@
 @import '../../constants/constants.scss';
 .header {
   display: flex;
-  max-width: 1220px;
+  width: 1220px;
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
+  background-color: #fff;
   height: 100px;
+  position: sticky;
+  top: 0;
+  left: calc(50% - 610px);
+  z-index: 999;
   & nav .navbar {
     display: flex;
     gap: 30px;
@@ -61,4 +66,6 @@
 .stroke {
   width: 100%;
   border: .5px solid rgba(110, 120, 146, 1);
+  position: fixed;
+  top: 100px;
 }

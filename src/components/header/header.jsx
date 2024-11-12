@@ -22,7 +22,7 @@ const Header = () => {
               
               {navbarList.map(item => (
                 <li key={item.path} className="navbar__item">
-                  <Link to={item.path}>{item.text}</Link>
+                  <a href={`#${item.path.slice(1)}`}>{item.text}</a>
                 </li>
               ))}
               

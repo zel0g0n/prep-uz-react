@@ -6,8 +6,8 @@ const Digest = () => {
       <div className='digestsection'>
         <h4>Prep Contest Dayjest</h4>
         <ul className="digestsection__list">
-          {digestList.map(item => (
-            <li key={item.duration} className="digestsection__list-item">
+          {digestList.map((item,index) => (
+            <li key={index} className="digestsection__list-item">
               <img src={item.src} alt={item.alt} className="digestsection__list-item--img" />
               <p className="digestsection__list-item--info">
                 {item.info}

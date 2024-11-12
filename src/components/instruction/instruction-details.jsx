@@ -2,7 +2,7 @@ import { instructionList } from '../../constants/app'
 import './instruction-details.scss'
 const InstructionDetails = () => {
   return (
-    <div className='instruction'>
+    <div className='instruction' id='instruction'>
       <h4>Bizning O'quv Ko'rsatmalarimiz</h4>
       <ul className="instruction__list">
         {instructionList.map((item,index)=>(

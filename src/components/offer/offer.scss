@@ -16,65 +16,7 @@
     text-align: center;
     color: $main-color;
   }
-  .offer__item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 490px;
-    &-clients {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: relative;
-      & div {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 47px;
-        height: 47px;
-        border-radius: 50%;
-        position: relative;
-        &:nth-child(2) {
-          left: -10px;
-        }
-        &:nth-child(3) {
-          left: -20px;
-        }
-        &:nth-child(4) {
-          left: -30px;
-        }
-        & img {
-          width: 45px;
-          height: 45px;
-        }
-      }
-      .item__clients-more {
-        border: 1px solid #fff;
-        color: #fff;
-        font-weight: 500;
-        font-size: 14px;
-        background-color: $secondary-color;
-      }
-    }
-    &-descr {
-      font-size: 16px;
-      font-weight: 400;
-      line-height: 22.4px;
-      color: $main-color;      
-    }
-  }
-
-  .offer-btn {
-    width: 216px;
-    height: 60px;
-    color: #fff;
-    border-radius: 7px;
-    border: none;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 20px;
-    background-color: $secondary-color;
-  }
+  
   .floating-img {
     img {
       position: absolute;

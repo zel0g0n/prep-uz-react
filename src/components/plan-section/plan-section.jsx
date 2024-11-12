@@ -2,7 +2,7 @@ import { planList } from '../../constants/app'
 import './plan-section.scss'
 const PlanSection = () => {
   return (
-    <div className="plan-container">
+    <div className="plan-container" id='plan'>
       <div className='plansection'>
         <h4>Har bir ayti sohasi uchun o'quv rejasi</h4>
         <ul className="plansection__list">

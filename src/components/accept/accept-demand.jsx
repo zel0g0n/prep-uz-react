@@ -4,7 +4,7 @@ import AcceptDemandListItem from '../accept-demand-list/accept-demand-list'
 const AcceptDemand = () => {
   
   return (
-    <div className='accept'>
+    <div className='accept' id='accept'>
       <div className="acceptdemand">
         <h4>Qabul qilish talablari</h4>
         {acceptDataList.map(item => (
