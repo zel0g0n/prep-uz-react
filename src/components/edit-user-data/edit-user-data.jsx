@@ -5,7 +5,6 @@ import { useCallback, useEffect, useState } from 'react';
 const EditUserData = ({ userData, activateUser,upLoadImg }) => {
   const [editedUserData, setEditedUserData] = useState({ lastname: '', firstname: '', area: '' });
   const [shortData, setShortData] = useState({ lastname: '', firstname: '' });
-  const [imagePreview, setImagePreview] = useState(null);
 
   useEffect(() => {
     if (userData) {

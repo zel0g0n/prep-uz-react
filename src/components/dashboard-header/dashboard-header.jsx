@@ -30,7 +30,7 @@ const DashboardHeader = ({userData,hasImg}) => {
         </div>
         <div onClick={() => navigate('edit')} className="user__button">
           <div className="user__button-image">
-              {hasImg ? <img style={{width: '40px', height: '40px'}} src={hasImg} alt="ave" /> : <span>{lastname[0] + firstname[0]}</span>}
+              {hasImg ? <img style={{width: '40px', height: '40px', borderRadius: '50%'}} src={hasImg} alt="ave" /> : <span>{lastname[0] + firstname[0]}</span>}
 
           </div>
           <p className="user__button-name">{lastname + ` ` + firstname}</p>
