@@ -54,7 +54,7 @@ const EditUserData = ({ userData, activateUser,upLoadImg }) => {
         <div className="form__img">
           <div className="form__img-section">
             <label htmlFor="imgInp" className="img-label">
-              {(!imgUrlLink)?((shortData.lastname?.at(0) || '') + (shortData.firstname?.at(0) || '')):<img style={{width: '106px', height: '106px'}} src={imgUrlLink} alt="ave" />}
+              {(!imgUrlLink)?((shortData.lastname?.at(0) || '') + (shortData.firstname?.at(0) || '')):<img style={{width: '106px', height: '106px', borderRadius: '50%'}} src={imgUrlLink} alt="ave" />}
               
 
             </label>
