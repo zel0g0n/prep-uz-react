@@ -8,7 +8,7 @@ const Offer = () => {
       <h1>
         Ваша работа мечты уже ждет вас, <br /> начните сегодня!
       </h1>
-      <Clients></Clients>
+    <Clients></Clients>
       
       <div className="floating-img">
         {imgList.map(item => (<img key={item.alt} src={item.src} alt={item.alt} />))}

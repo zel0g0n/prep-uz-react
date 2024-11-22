@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-
+import Button from '../button/button'
 import './accept-demand-list.scss'
 import checkbox from '/checkbox-icon.png'
 const AcceptDemandListItem = (props) => {
@@ -21,7 +21,7 @@ const AcceptDemandListItem = (props) => {
               </li>
             ))}
           </ul>
-          <button className="btn accept-btn">Оставить заявку</button>
+          <Button/>
         </div>
         <img src={props.img.src} alt={props.img.alt} className="item__img" />
       </li>

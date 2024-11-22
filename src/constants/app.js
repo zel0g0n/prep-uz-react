@@ -6,23 +6,23 @@ const navbarList = [
 ]
 
 const imgList = [
-  {src: './python.png', alt: 'python'},  
-  {src: './dart.png', alt: 'dart'},  
-  {src: './html.png', alt: 'html'},  
-  {src: './figma.png', alt: 'figma'},  
-  {src: './flutter.png', alt: 'flutter'},  
+  {src: '/python.png', alt: 'python'},  
+  {src: '/dart.png', alt: 'dart'},  
+  {src: '/html.png', alt: 'html'},  
+  {src: '/figma.png', alt: 'figma'},  
+  {src: '/flutter.png', alt: 'flutter'},  
 ]
 
 const inviteDataList = [
   {
     title: 'Сайт рыбатекст поможет дизайнеру, верстальщику',
     info: "Siz IT o'quv kursini tugatdingiz yoki Internet tarmog'i orqali mustaqil o'rgandingiz, ammo ishga joylashishda qiyinchiliklarga uchrayapsizmi? Biz sizga yordam beramiz. Ushbu loyiha qobiliyatli yoshlarni topib, yetuk kadrlar bo'lib yetishishiga yordam berish uchun tashkil qilindi. ",
-    src: './invite-img-2.png',
+    src: '/invite-img-2.png',
     alt: 'invite-img',
   },
   {
     title: "Aksariyat kompaniyalar ishga joylashishda sizdan ish staji va portfolio so'raydi",
-    src: './invite-img-1.png',
+    src: '/invite-img-1.png',
     info: `Tabiyki endigini bu sohaga kirib kelayotgan internlarda bular   mavjud emas. Ma'lum bir ish stajiga ega bo'lish va turli xil qiziqarli lohiyalardan iborat portfolioni hosil qilish uchun ushbu loyihada amaliyot o'tashni taklif qilamiz.
     Amaliyotchilar soni chegaralangan va konkurs asosida saralab olinadi. Eng yuqori ball to'plagan 10 kishi bepul amaliyot o'tash imkoniyatiga ega bo'ladi.`,
     alt: 'invite-img2',
@@ -37,10 +37,10 @@ const planList = [
   {duration: 6, info: `O'qitishning barcha bosqichlaridan o'tib, siz yangi kasbning professionaliga aylanasiz`}
 ]
 const digestList  = [
-  {src: './seo.png', alt: 'seo', info: `Dush-jumagacha officeda 8 soatlik work-time`},
-  {src: './mentor.png', alt: 'mentor', info: `Dush-jumagacha har kuni 2 soatlik mentorlardan yordam olish`},
-  {src: './work.png', alt: 'work', info: `Haftada bir marta mehmon dasturchilardan masterclass`},
-  {src: './database.png', alt: 'database', info: `Loyihalarni joylash uchun bepul domain va hosting beriladi`},
+  {src: '/seo.png', alt: 'seo', info: `Dush-jumagacha officeda 8 soatlik work-time`},
+  {src: '/mentor.png', alt: 'mentor', info: `Dush-jumagacha har kuni 2 soatlik mentorlardan yordam olish`},
+  {src: '/work.png', alt: 'work', info: `Haftada bir marta mehmon dasturchilardan masterclass`},
+  {src: '/database.png', alt: 'database', info: `Loyihalarni joylash uchun bepul domain va hosting beriladi`},
 ]
 
 
@@ -55,8 +55,8 @@ const acceptDataList = [
       `HTML, CSS, Javascript asosiy tushunchalar`,
       `Ishtiyoq, qiziqish, maqsad`
     ],
-    icon: {src: './checkbox.png', alt: 'checkboc'},
-    img: {src: './front-end.png', alt: 'frontend'}
+    icon: {src: '/checkbox.png', alt: 'checkboc'},
+    img: {src: '/front-end.png', alt: 'frontend'}
 
   },
   {
@@ -69,8 +69,8 @@ const acceptDataList = [
       `Phyton yoki PHP bo’yicha dastlabki bilimlar`,
       `Ishtiyoq, qiziqish, maqsad`
     ],
-    icon: {src: './checkbox.png', alt: 'checkboc'},
-    img: {src: './backend.png', alt: 'backend'}
+    icon: {src: '/checkbox.png', alt: 'checkboc'},
+    img: {src: '/backend.png', alt: 'backend'}
 
   },
   {
@@ -83,8 +83,8 @@ const acceptDataList = [
       `Dart yoki Java dasturlash tillari bo’yicha dastlabki bilimlar`,
       `Ishtiyoq, qiziqish, maqsad`
     ],
-    icon: {src: './checkbox.png', alt: 'checkboc'},
-    img: {src: './mob-flutter.png', alt: 'mob-flutter'}
+    icon: {src: '/checkbox.png', alt: 'checkboc'},
+    img: {src: '/mob-flutter.png', alt: 'mob-flutter'}
 
   },
   {
@@ -97,19 +97,19 @@ const acceptDataList = [
       `Photoshop yoki Figma dasturlarida ishlash ko’nikmasi`,
       `Ishtiyoq, qiziqish, maqsad`
     ],
-    icon: {src: './checkbox.png', alt: 'checkboc'},
-    img: {src: './design.png', alt: 'design'}
+    icon: {src: '/checkbox.png', alt: 'checkboc'},
+    img: {src: '/design.png', alt: 'design'}
 
   }
 ]
 
 const instructionList = [
-  {src: './web-development.png', alt: 'development', descr: `Darslar to’liq mustaqil o’rganishga yo’naltiriladi`},
-  {src: './network.png', alt: 'network', descr: `2 oyda 4 kishilik (1- front, 1-back end, 1-flutter, 1-designer) guruhlarga bo’linadi`},
-  {src: './leadership.png', alt: 'leadership', descr: `Har bir guruhda bittadan leader aniqlanadi`},
-  {src: './deadline.png', alt: 'deadline', descr: `Guruhlarga loyihalar bo’lib beriladi, anig dedline bilan ishlash o’rigatiladi`},
-  {src: './podium.png', alt: 'podium', descr: `Guruhlar o’rtasida raqobat hosil qilinadi (ball tizimi orqali amalga oshirish mumkin)`},
-  {src: './task.png', alt: 'task', descr: `Alpha-testni guruh a'zolari o'zaro bajaradi, Beta-testni boshqa guruh bajarib beradi (bunda testlovchi guruh har bir topgan xatosi uchun ball loyiha egalaridan olib beriladi)`},
+  {src: '/web-development.png', alt: 'development', descr: `Darslar to’liq mustaqil o’rganishga yo’naltiriladi`},
+  {src: '/network.png', alt: 'network', descr: `2 oyda 4 kishilik (1- front, 1-back end, 1-flutter, 1-designer) guruhlarga bo’linadi`},
+  {src: '/leadership.png', alt: 'leadership', descr: `Har bir guruhda bittadan leader aniqlanadi`},
+  {src: '/deadline.png', alt: 'deadline', descr: `Guruhlarga loyihalar bo’lib beriladi, anig dedline bilan ishlash o’rigatiladi`},
+  {src: '/podium.png', alt: 'podium', descr: `Guruhlar o’rtasida raqobat hosil qilinadi (ball tizimi orqali amalga oshirish mumkin)`},
+  {src: '/task.png', alt: 'task', descr: `Alpha-testni guruh a'zolari o'zaro bajaradi, Beta-testni boshqa guruh bajarib beradi (bunda testlovchi guruh har bir topgan xatosi uchun ball loyiha egalaridan olib beriladi)`},
 ]
 
 const partnerslist = [
@@ -118,4 +118,63 @@ const partnerslist = [
   {src: '/aav.svg', alt: 'aav'},
   {src: '/oson-apteka.svg', alt: 'oson-apteka'},
 ]
-export {navbarList,imgList,inviteDataList,planList,digestList,acceptDataList,instructionList,partnerslist}
+const dashboardNavbarList = [
+  {path:'/dashboard/front-end',text:"Front End"},
+  {path:'/dashboard/back-end',text:"Back End"},
+  {path:'/dashboard/p-m',text:"Project-Management"},
+  {path:'/dashboard/rating',text:"Reyting"},
+]
+
+const answersList = [
+  {
+    answers: [
+      { 
+        body: `Cлучайным образом генератора мы использовали небезизвестный`,
+        isTrue: false,
+      },
+      { 
+        body: `Cлучайным образом генератора мы использовали небезизвестный`,
+        isTrue: false,
+      },
+      { 
+        body: `Cлучайным образом генератора мы использовали небезизвестный`,
+        isTrue: true,
+      },
+      { 
+        body: `Cлучайным образом генератора мы использовали небезизвестный`,
+        isTrue: false,
+      }
+      ],
+    question: ` При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацам?`,
+    isTrue: true,
+    src: '/true.png',
+    alt: 'true'
+  },
+  {
+    answers: [
+      { 
+        body: `Cлучайным образом генератора мы использовали небезизвестный`,
+        isTrue: true,
+      },
+      { 
+        body: `Cлучайным образом генератора мы использовали небезизвестный`,
+        isTrue: false,
+      },
+      { 
+        body: `Cлучайным образом генератора мы использовали небезизвестный`,
+        isTrue: false,
+      },
+      { 
+        body: `Cлучайным образом генератора мы использовали небезизвестный`,
+        isTrue: false,
+      }
+      ],
+    question: ` При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацам?`,
+    isTrue: false,
+    src: '/false.png',
+    alt: 'false'
+  },
+
+]
+
+export {navbarList,imgList,inviteDataList,planList,digestList,acceptDataList,instructionList,partnerslist,dashboardNavbarList,answersList}

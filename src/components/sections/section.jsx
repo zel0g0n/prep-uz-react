@@ -1,4 +1,4 @@
-import React from 'react'
+import Button from '../button/button'
 import './section.scss'
 const Clients = () => {
   return (
@@ -18,9 +18,7 @@ const Clients = () => {
         </div>
         <p className="offer__item-descr">человек уже стали участниками групп по своим направлениям</p>
       </div>
-      <button className="offer-btn">
-        Оставить заявку
-      </button>
+      <Button></Button>
     </div>
   )
 }

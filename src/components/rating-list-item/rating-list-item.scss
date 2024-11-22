@@ -1,0 +1,124 @@
+@import '../../constants/constants.scss';
+.rating__list-item {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 5fr 12fr;
+  grid-template-rows: 50px;
+  gap: 2px;
+  p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color: $main-color; 
+       
+  }
+  & .user__button-rate {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 20px;
+    p {
+      margin-left: 16px;
+    }
+  }
+  .s-num {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .user-marks {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(11, 65px);
+    grid-template-rows: 50px;
+    gap: 2px;
+    & li {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2px;
+      flex-direction: column;
+      ;
+
+    }
+  }
+  &:nth-child(2) {
+    .user-marks {
+      & li:nth-child(2) {
+        background-color: rgba(235, 87, 87, 0.15);
+        p {
+          color: rgba(235, 87, 87, 1);
+        }
+      }
+      & li:nth-child(6),& li:nth-child(8){
+        background-color: rgba(20, 199, 167, .15);
+        p {
+          color: rgba(20, 199, 167, 1);
+        }
+      }
+    }
+  }
+  &:nth-child(4) {
+    .user-marks {
+      & li:nth-child(2) {
+        background-color: rgba(235, 87, 87, 0.15);
+        p {
+          color: rgba(235, 87, 87, 1);
+        }
+      }
+      & li:nth-child(6),& li:nth-child(8){
+        background-color: rgba(20, 199, 167, .15);
+        p {
+          color: rgba(20, 199, 167, 1);
+        }
+      }
+    }
+  }
+  &:nth-child(7) {
+    .user-marks {
+      & li:nth-child(2) {
+        background-color: rgba(235, 87, 87, 0.15);
+        p {
+          color: rgba(235, 87, 87, 1);
+        }
+      }
+      & li:nth-child(6),& li:nth-child(8){
+        background-color: rgba(20, 199, 167, .15);
+        p {
+          color: rgba(20, 199, 167, 1);
+        }
+      }
+    }
+  }
+  &:nth-child(8) {
+    .user-marks {
+      & li:nth-child(2) {
+        background-color: rgba(235, 87, 87, 0.15);
+        p {
+          color: rgba(235, 87, 87, 1);
+        }
+      }
+      & li:nth-child(6),& li:nth-child(8){
+        background-color: rgba(20, 199, 167, .15);
+        p {
+          color: rgba(20, 199, 167, 1);
+        }
+      }
+    }
+  }
+  &:nth-child(odd) {
+    .user-marks {
+      li {
+      background-color:rgba(243, 247, 249, 1);
+
+      }
+    }
+    .user__button-rate , .s-num {
+      background-color:rgba(243, 247, 249, 1);
+
+    }
+
+
+  }
+}

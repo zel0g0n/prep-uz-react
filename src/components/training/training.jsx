@@ -11,7 +11,7 @@ const Training = () => {
         <p className="training__info-descr">
           Участвуйте в вебинарах, делитесь опытом и задавайте вопросы. Все это возможно в отдельных группах, которые доступны при прохождении каждого курса!
         </p>
-        <Clients></Clients>
+      <Clients></Clients>
       </div>
       <section></section>
       </div>

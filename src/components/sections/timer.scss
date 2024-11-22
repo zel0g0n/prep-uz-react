@@ -1,0 +1,31 @@
+.timer {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  margin: 0 auto;
+  &__item {
+    width: 100px;
+    height: 130px;
+    &-time {
+      font-size: 88px;
+      font-weight: 700;
+      line-height: 106.39px;
+      color: rgba(82, 84, 241, 1);  
+      margin-bottom: 20px;    
+    }
+    &-text {
+      font-size: 24px;
+      font-weight: 700;
+      text-align: center;
+      color: rgba(37, 42, 59, 1);      
+    }
+  }
+  &-dot {
+    span {
+      font-size: 88px;
+      font-weight: 700;
+      color: rgba(82, 84, 241, 1);
+
+    }
+  }
+}

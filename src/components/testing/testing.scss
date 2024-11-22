@@ -1,0 +1,108 @@
+@import '../../constants/constants.scss';
+
+.testing {
+  width: 940px;
+  margin: 0 auto;
+  color: $main-color;
+  &__result-title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.69px;
+    margin-bottom: 24px;
+  }
+  &__properties {
+    display: grid;
+    grid-template-columns: repeat(3 , 3fr);
+    grid-template-rows: 180px;
+    gap: 1fr;
+    margin-bottom: 60px;
+    &-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      &--name {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 14px;
+        text-align: center;
+      }
+      &--descr {
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 8px;
+      }
+      &--time {
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+      }
+    }
+  }
+  &__answer-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 24px;    
+  }
+  &__answers {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    &-item {
+      width: 100%;
+      &--result {
+        display: flex;
+        margin-bottom: 8px;
+        gap: 10px;
+        .answer__result-text {
+          font-size: 24px;
+          font-weight: 500;
+          color: #000;          
+        }
+      }
+      .answer {
+        width: 100%;
+        padding: 40px;
+        &__question {
+          font-size: 24px;
+          font-weight: 600;
+          line-height: 36px;
+          margin-bottom: 24px;
+        }
+        &__variants {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          width: 100%;
+         
+          .answer__variant-item {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 30px;
+            
+            input {
+              width: 20px;
+              height: 20px;
+            }
+          }
+        }
+        
+      }
+      .answer__true-question {
+        border: 1px solid rgba(20, 199, 167, 1);
+        border-radius: 30px;
+        background-color: rgba(20, 199, 167, 0.06);
+      }
+      .answer__false-question {
+        border: 1px solid rgba(243, 86, 86, 1);
+        border-radius: 30px;
+        background-color:  rgba(243, 86, 86, 0.06);
+      }
+    }
+    
+  }
+}

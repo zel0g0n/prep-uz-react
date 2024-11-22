@@ -1,0 +1,31 @@
+.login {
+  width: 100%;
+  min-height: max-content;
+  background-image: linear-gradient(to right, rgba(37, 42, 59, 1) 35%, #eee 30%);
+
+
+  .header {
+    background-color: transparent;
+    position: relative;
+    .logo {
+      color: #fff;
+    }
+    nav {
+      display: none;
+    }
+    .header__btns {
+      .header__button {
+        display: none;
+      }
+    }
+  }
+  main {
+    width: 1220px;
+    margin: 130px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .stroke {
+    display: none;
+  }
+}

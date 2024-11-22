@@ -4,13 +4,18 @@
   width: 1220px;
   align-items: center;
   justify-content: space-between;
-  margin: 0 auto;
   background-color: #fff;
   height: 100px;
-  position: sticky;
-  top: 0;
-  left: calc(50% - 610px);
-  z-index: 999;
+  margin: 0 auto;
+  .logo {
+    display: flex;
+    align-items: center;
+    color: $main-color;
+    font-size: 24px;
+    gap: 8px;
+    line-height: 0;
+    font-weight: 600;
+  }
   & nav .navbar {
     display: flex;
     gap: 30px;
@@ -25,29 +30,7 @@
     display: flex;
     gap: 40px;
     align-items: center;
-    .language {
-      position: relative;
-      & div {
-        display: flex;
-        align-items: center;
-        width: 120px;
-        height: 20px;
-        gap: 5px;
-        cursor: pointer;
-        tansition: all .3s ease;
-        p {
-          font-size: 14px;
-          font-weight: 500;
-          color: $main-color;
-        }
-        
-        
-      }
-
-      .not-choosen {
-        display: none;
-      }
-    }
+  
     .header__button {
       width: 150px;
       height: 43px;
@@ -66,6 +49,5 @@
 .stroke {
   width: 100%;
   border: .5px solid rgba(110, 120, 146, 1);
-  position: fixed;
-  top: 100px;
+  margin-bottom: 50px;
 }

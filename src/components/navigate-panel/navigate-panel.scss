@@ -1,0 +1,23 @@
+@import '../../constants/constants.scss';
+.navigate__panel {
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 80px;
+  span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(137, 141, 166, 1); 
+    margin-left: 5px;   
+  }
+   i {
+    color: rgba(137, 141, 166, 1);
+   }
+  &-main {
+    color: $main-color !important;
+    margin-right: 5px;
+  }
+}

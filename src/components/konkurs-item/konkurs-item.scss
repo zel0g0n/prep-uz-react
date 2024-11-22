@@ -1,0 +1,65 @@
+@import '../../constants/constants.scss';
+.frontend {
+  width: 744px;
+  margin: 0 auto;
+  &-title {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+    color: $main-color;
+  }
+  &-info {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.2px;
+    text-align: center;
+    margin-bottom: 60px;
+    color: $grey-color;    
+  }
+  &__email {
+    display: flex;
+    flex-direction: column;
+    width: 552px;
+    margin: 100px auto;
+    &-title {
+      font-size: 20px;
+      font-weight: 500;
+      text-align: center;
+      color: $grey-color;  
+      margin-bottom: 28px;    
+    }
+    &-descr {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 16.24px;
+      margin-bottom: 8px;
+      color: $grey-color;      
+    }
+    &-main {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 67% 28%;
+      gap: 5%;
+      & input {
+        height: 50px;
+        border-radius: 15px;
+        border: 1px solid $secondary-color;
+        outline: none;
+        color: $secondary-color;
+        font-size: 16px;
+        font-weight: 500;
+        padding: 20px;
+      }
+      & button {
+        background-color: $secondary-color;
+        border-radius: 15px;
+        height: 50px;
+        border: none;
+        font-size: 20px;
+        font-weight: 600;
+        color: #fff;
+      }
+    }
+  }
+}

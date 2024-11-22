@@ -1,28 +1,25 @@
-import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import { navbarList } from '../../constants/app'
+import Language from '../language/language'
 import './header.scss'
 
 const Header = () => {
-  const [isUzb,setUzb] = useState(true)
-  
-  const changeLanguage = () => {
-    setUzb(!isUzb)
-  }
+  const navigate = useNavigate()
 
   return (
     <>
     
       <div className='header'>
         <Link className='logo' to='/'>
-          <img src="./prep-logo.png" alt="logo" />
+          <img src="/logo-letter.png" alt="logo" />prep.uz
         </Link>
         <nav>
             <ul className="navbar">
               
               {navbarList.map(item => (
                 <li key={item.path} className="navbar__item">
-                  <a href={`#${item.path.slice(1)}`}>{item.text}</a>
+                  <Link to={item.path}>{item.text}</Link>
                 </li>
               ))}
               
@@ -30,19 +27,8 @@ const Header = () => {
         </nav>
         <div className="bars-menu"><i className="fa-solid fa-bars"></i></div>
         <div className="header__btns">
-          <div  className="language">
-            <div onClick={changeLanguage} className={`language__item ${isUzb?'':'not-choosen'}`}>
-              <img src="./uzbekistan.png" alt="uzb" className="lang" />
-              <p className="lang-text">O'zbek tili</p>
-              <img src="./angle-right.png" alt="angle" className="language-btn" />
-            </div>
-            <div onClick={changeLanguage} className={`language__item ${!isUzb?'':'not-choosen'}`}>
-              <img src="./rus.png" alt="rus" className="lang" />
-              <p className="lang-text">Русский</p>
-              <img src="./angle-right.png" alt="angle" className="language-btn" />
-            </div>
-          </div>
-          <button className="header__button">Sinovdan otish</button>
+          <Language></Language>
+          <button onClick={() => navigate('/login')} className="header__button btn">Sinovdan otish</button>
         </div>
       </div>
       <div className="stroke"></div>
